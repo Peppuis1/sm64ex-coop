@@ -14,14 +14,14 @@ djui_hud_set_resolution, hook_chat_command, hook_event
 
 -- Cheats in Order --
 for i = 0, MAX_PLAYERS - 1 do
-    gPlayerSyncTable[i].Moon_Jump = false
+    gPlayerSyncTable[i].Moon_Jump = true
     gPlayerSyncTable[i].God_Mode = false
-    gPlayerSyncTable[i].Infinite_lives = false
-    gPlayerSyncTable[i].Super_Speed = false
-    gPlayerSyncTable[i].Responsive_Controls = false
-    gPlayerSyncTable[i].Rapid_Fire = false
-    gPlayerSyncTable[i].BLJ_Anywhere = false
-    gPlayerSyncTable[i].Always_Triple_Jump = false
+    gPlayerSyncTable[i].Infinite_lives = true
+    gPlayerSyncTable[i].Super_Speed = true
+    gPlayerSyncTable[i].Responsive_Controls = true
+    gPlayerSyncTable[i].Rapid_Fire = true
+    gPlayerSyncTable[i].BLJ_Anywhere = true
+    gPlayerSyncTable[i].Always_Triple_Jump = true
 end
 
 local function lang()
